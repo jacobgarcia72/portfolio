@@ -1,0 +1,104 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Splash .image {
+  background-image: url("../assets/splash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Splash .cover {
+  background-color: rgba(0, 0, 15, 0.7);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Splash .image, .Splash .cover {
+  height: 100vh;
+}
+
+.Splash h1 {
+  font-size: 72pt;
+  font-weight: 800;
+  margin: 0;
+}
+
+.Splash h2 {
+  font-size: 32pt;
+  font-weight: 500;
+  margin: 0 0 32px 0;
+  letter-spacing: 4pt;
+}
+
+.Splash .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 0 36px 0;
+}
+
+@media (max-width: 768px) {
+  .Splash .links {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Splash h1 {
+    font-size: 28pt;
+  }
+  .Splash h2 {
+    font-size: 12pt;
+    letter-spacing: 2pt;
+    margin-bottom: 12px;
+  }
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  margin: 0;
+}
+
+.btn {
+  display: block;
+  border: 2px solid white;
+  width: 250px;
+  text-align: center;
+  font-size: 20pt;
+  padding: 12pt 0;
+  color: white;
+  margin: 6px 12px;
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+}
+
+.btn:hover {
+  border-color: #ef4;
+  color: #ef4;
+  border-radius: 24px;
+}
+/*# sourceMappingURL=style.css.map */
