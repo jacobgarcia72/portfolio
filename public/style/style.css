@@ -1,10 +1,10 @@
 body {
-  background-color: #2e3346;
-  color: #ffffff;
+  background-color: #e9e9ee;
+  color: black;
   height: 100vh;
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Monserrat", sans-serif;
   font-size: 15pt;
   word-wrap: break-word;
 }
@@ -14,16 +14,7 @@ body {
           box-sizing: border-box;
 }
 
-.bg-image {
-  background-image: url("../assets/splash.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.bg-cover {
-  background-color: rgba(10, 10, 15, 0.7);
+.back {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -37,23 +28,33 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.bg-image, .bg-cover {
   min-height: 100vh;
+  background: #fdfdff;
+  width: 100%;
+  max-width: 1080px;
+  margin: auto;
+  padding: 24px 0;
 }
 
 .Splash {
   text-align: center;
 }
 
+.Splash img {
+  width: 250px;
+  max-width: 50vw;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
 .Splash h1 {
-  font-size: 72pt;
-  font-weight: 800;
+  font-size: 64pt;
+  font-weight: 200;
   margin: 0;
 }
 
 .Splash h2 {
+  color: #39f;
   font-size: 32pt;
   font-weight: 500;
   margin: 0 0 32px 0;
@@ -72,7 +73,7 @@ body {
 }
 
 .ProjectCard {
-  padding: 24px 0 36px 0;
+  padding: 12px 0 48px 0;
 }
 
 .ProjectCard h2 {
@@ -116,6 +117,7 @@ body {
 .ProjectCard img {
   width: 480px;
   max-width: 90vw;
+  border: 2px black solid;
 }
 
 .ProjectCard .links a {
@@ -126,11 +128,15 @@ a {
   display: block;
   text-decoration: none;
   margin: 0;
-  color: white;
+  color: #37c;
 }
 
 a:hover {
-  color: #ef4;
+  color: #4af;
+}
+
+p a {
+  display: inline;
 }
 
 .center {
@@ -142,20 +148,21 @@ a:hover {
 
 .btn {
   display: block;
-  border: 2px solid white;
+  border: 3px solid black;
   width: 250px;
   text-align: center;
   font-size: 20pt;
+  font-weight: 500;
   padding: 12pt 0;
-  color: white;
+  color: black;
   margin: 6px 12px;
   -webkit-transition-duration: 300ms;
           transition-duration: 300ms;
 }
 
 .btn:hover {
-  border-color: #ef4;
-  color: #ef4;
+  border-color: #4af;
+  color: #4af;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
@@ -186,6 +193,6 @@ a:hover {
 .section {
   width: 90vw;
   max-width: 768px;
-  margin: 0 0 48px 0;
+  margin: 0 auto 48px auto;
 }
 /*# sourceMappingURL=style.css.map */

@@ -5,6 +5,10 @@ export default () =>  (
   <div className="Contact">
 
     <div className="section center">
+      <h1>Contact</h1>
+    </div>
+
+    <div className="section center">
       <h2>Phone</h2>
       <p><a href="tel:254.541.3763">254.541.3763</a></p>
     </div>

@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 
 export default () =>  (
   <div className="Splash">
+    <img alt="Jacob Garcia" src="assets/jacob.jpg" />
     <h1>Jacob Garcia</h1>
     <h2>Austin Web Developer</h2>
     <div className="links">
