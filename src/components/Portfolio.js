@@ -8,7 +8,16 @@ export default () =>  (
     
     <h1>Jacob Garcia's Portfolio</h1>
     <p>Click a website's title to view live.</p><p>All websites are built responsive and fully mobile-compatible.</p>
-  
+    
+    <Project
+      title="Party House Games"
+      desc="Interactive, multiplayer game. Users join game via room code and interact using their own devices."
+      tech="React, JavaScript, Firebase, Sass"
+      captions={["Play with 3-16 players on separate devices","Real-time updates, interactive play"]}
+      folder="partyhouse"
+      repo="gamehouse"
+      url="https://partyhouse.tv/"
+    />
     <Project
       title="Log My Reps"
       desc="Fullstack React app. Users can securely log in with Google, build workout routines, track workout reps, etc."
@@ -36,14 +45,14 @@ export default () =>  (
       repo="Game"
       url="https://jacobgarcia72.github.io/Game/"
     />
-    <Project
+    {/* <Project
       title="Pest Prevention Plans"
       desc="Business website for local pest control company."
       tech="React, JavaScript, Sass"
       captions={["Current work-in-progess."]}
       folder="pestpreventionplans"
       repo="pestpreventionplans"
-    />
+    /> */}
 
     <div className="links">
       <Link to="/" className="btn">Home</Link>
