@@ -13,7 +13,7 @@ export default () =>  (
     <div className="section">
       <div className="center"><h2>Introduction</h2></div>
       <div>
-        <p>Hey there! My name's Jacob, and I'm a developer.</p>
+        <p>Hey there! My name's Jacob, and I'm a fullstack developer.</p>
         <p>I've been developing software for a long time&mdash;I taught myself at age 11! I would spend hours at a time growing up creating games and other applications with Visual Studio.</p>
         <p>I began getting into web develop during college. I graduated Texas A&amp;M University with an economics degree, and took several development classes while in college. </p>
         <p>Since then, I've continued to expand on my skills, taking courses through Udemy, while continuing to work on my own projects.</p>

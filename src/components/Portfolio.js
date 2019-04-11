@@ -6,7 +6,7 @@ import Project from './ProjectCard';
 export default () =>  (
   <div className="Portfolio center">
     
-    <h1>Jacob Garcia's Portfolio</h1>
+    <h1>Portfolio</h1>
     <p>Click a website's title to view live.</p><p>All websites are built responsive and fully mobile-compatible.</p>
     
     <Project

@@ -3,9 +3,15 @@ import {Link} from 'react-router-dom';
 
 export default () =>  (
   <div className="Splash">
-    <img alt="Jacob Garcia" src="assets/jacob.jpg" />
-    <h1>Jacob Garcia</h1>
-    <h2>Austin Web Developer</h2>
+
+
+    <video controls poster="assets/cover.png">
+      <source src="assets/portfolio.mp4" type="video/mp4 " />
+      <source src="assets/portfolio.ogg" type="video/ogg" />
+      Your browser does not support the video tag.
+    </video>
+    
+
     <div className="links">
       <Link to="/about" className="btn">About</Link>
       <Link to="/portfolio" className="btn">Portfolio</Link>
