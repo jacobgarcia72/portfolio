@@ -19,6 +19,15 @@ export default () =>  (
       url="https://partyhouse.tv/"
     />
     <Project
+      title="Pest Prevention Plans"
+      desc="Business website for local pest control company."
+      tech="React, JavaScript, Sass"
+      captions={["Landing page with professional design","Visually-appealing styles"]}
+      folder="pestpreventionplans"
+      repo="pestpreventionplans"
+      url="https://pestpreventionplansatx.firebaseapp.com/"
+    />
+    <Project
       title="Log My Reps"
       desc="Fullstack React app. Users can securely log in with Google, build workout routines, track workout reps, etc."
       tech="React, JavaScript, Redux, Node, Express, MongoDB, Sass"
@@ -45,14 +54,6 @@ export default () =>  (
       repo="Game"
       url="https://jacobgarcia72.github.io/Game/"
     />
-    {/* <Project
-      title="Pest Prevention Plans"
-      desc="Business website for local pest control company."
-      tech="React, JavaScript, Sass"
-      captions={["Current work-in-progess."]}
-      folder="pestpreventionplans"
-      repo="pestpreventionplans"
-    /> */}
 
     <div className="links">
       <Link to="/" className="btn">Home</Link>
