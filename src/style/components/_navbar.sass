@@ -1,0 +1,54 @@
+.Navbar
+  border-bottom: 1px darken($color-blue, 10%) solid
+  position: fixed
+  z-index: 5
+  top: 0
+  left: 0
+  width: 100%
+  background-color: $color-blue 
+  display: flex
+  justify-content: center 
+  align-items: center
+  a 
+    color: white
+    min-width: 100px
+    padding: 0 10px
+    display: block
+    text-align: center
+    &:hover  
+      background-color: white
+      color: $color-blue 
+  #menu-icon 
+    position: fixed 
+    width: 10vw
+    left: 0
+    z-index: 6
+    text-align: center
+    cursor: pointer
+  .content
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    align-items: center
+    max-width: 95%
+    width: $lg
+    @media screen and (max-width: $md)
+      max-width: 100%
+      flex-direction: column
+    .home
+      font-size: 1.5rem
+      text-align: center
+    .links
+      display: flex 
+      @media screen and (max-width: $md)
+        position: fixed 
+        background-color: rgba(0,0,0,.92)
+        height: 100vh
+        flex-direction: column
+        justify-content: center
+        width: 100%
+        a 
+          min-width: 100vw
+          &:hover 
+            color: white !important
+            background-color: $color-blue !important

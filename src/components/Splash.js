@@ -1,21 +1,38 @@
-import React from 'react';
-import {Link} from 'react-router-dom';
+import React, {Component} from 'react';
+import { withRouter } from 'react-router-dom';
 
-export default () =>  (
-  <div className="Splash">
+class Splash extends Component {
 
+  componentDidMount() {
+    this.setTop();
+    window.addEventListener('scroll', this.setTop);
+    window.addEventListener('resize', this.setTop);
+  }
 
-    <video controls poster="assets/cover.png">
-      <source src="assets/portfolio.mp4" type="video/mp4 " />
-      <source src="assets/portfolio.ogg" type="video/ogg" />
-      Your browser does not support the video tag.
-    </video>
-    
+  setTop = ()=> {
+    let img = document.querySelector('.Splash .image');
+    let whiteSpace = document.getElementById('white-space');
+    if (!img) return;
+    let height = 0;
+    if (whiteSpace) height = parseInt(whiteSpace.style.height.concat(2));
+    let top = height-Math.round(window.scrollY/2);
+    img.style.top = `${top}px`;
 
-    <div className="links">
-      <Link to="/about" className="btn">About</Link>
-      <Link to="/portfolio" className="btn">Portfolio</Link>
-      <Link to="/contact" className="btn">Contact</Link>
-    </div>
-  </div>
-)
+  }
+
+  render() {
+    const path = this.props.location.pathname.substring(1);
+    const caption = path ? path.charAt(0).toUpperCase().concat(path.substring(1)) : 'Home';
+
+    return (
+      <div className='Splash'>
+        <div className="image" style={{'backgroundImage': `url("../assets/bg.jpg")`}}></div>
+        <div className="cover">
+          <div className="caption">{caption}</div>
+        </div>
+      </div>
+    )
+  }
+}
+
+export default withRouter(Splash);

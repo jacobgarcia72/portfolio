@@ -1,12 +1,10 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 
 import Project from './ProjectCard';
 
 export default () =>  (
   <div className="Portfolio center">
-    
-    <h1>Portfolio</h1>
+  
     <p>Click a website's title to view live.</p><p>All websites are built responsive and fully mobile-compatible.</p>
     
     <Project
@@ -55,11 +53,6 @@ export default () =>  (
       url="https://jacobgarcia72.github.io/Game/"
     />
 
-    <div className="links">
-      <Link to="/" className="btn">Home</Link>
-      <Link to="/about" className="btn">About</Link>
-      <Link to="/contact" className="btn">Contact</Link>
-    </div>
 
   </div>
 )

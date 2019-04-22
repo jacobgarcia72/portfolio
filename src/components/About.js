@@ -3,9 +3,6 @@ import {Link} from 'react-router-dom';
 
 export default () =>  (
   <div className="About">
-    <div className="section center">
-      <h1>About</h1>
-    </div>
     <div className="section">
       <div className="center"><h2>Proficiencies</h2></div>
       <p>JavaScript, jQuery, React, Redux, Node, Express, MongoDB, Mongoose, C#, HTML, CSS, Sass, Bootstrap, MySQL, Visual Studio, Adobe Creative Suite, etc.</p>
@@ -30,11 +27,6 @@ export default () =>  (
         <p>I'm currently looking for a new position with a company that can benefit from my skills. Please feel free to email me at if you know of a potential opportunity.</p>
         <p className="center"><a href="mailto:jacobgarcia@aggienetwork.com">jacobgarcia@aggienetwork.com</a></p>
       </div>
-    </div>
-    <div className="links">
-      <Link to="/" className="btn">Home</Link>
-      <Link to="/portfolio" className="btn">Portfolio</Link>
-      <Link to="/contact" className="btn">Contact</Link>
     </div>
 
   </div>
