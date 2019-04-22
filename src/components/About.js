@@ -26,6 +26,11 @@ export default () =>  (
         </p>
         <p>I'm currently looking for a new position with a company that can benefit from my skills. Please feel free to email me at if you know of a potential opportunity.</p>
         <p className="center"><a href="mailto:jacobgarcia@aggienetwork.com">jacobgarcia@aggienetwork.com</a></p>
+
+        <a className="btn" id="yelp" href="/Garcia.Jacob.Resume.pdf"  rel="noopener noreferrer" target="_blank">
+          Resume
+        </a>
+
       </div>
     </div>
 

@@ -317,6 +317,7 @@ p a {
   display: block;
   margin: 10px auto 24px;
   border-radius: 15px;
+  text-align: center;
 }
 
 .section .btn:hover {
