@@ -26,6 +26,10 @@ body {
           box-shadow: 0px 0px 15px #000;
 }
 
+.Landing img {
+  width: 100%;
+}
+
 .ProjectCard {
   padding: 12px 0 48px 0;
 }
@@ -302,6 +306,21 @@ p a {
 
 .section .review {
   padding: 24px 0 0;
+}
+
+.section .btn {
+  width: 90vw;
+  max-width: 200px;
+  line-height: 54px;
+  background-color: #0070e0;
+  color: white;
+  display: block;
+  margin: 10px auto 24px;
+  border-radius: 15px;
+}
+
+.section .btn:hover {
+  background-color: #148aff;
 }
 
 .page-content {
