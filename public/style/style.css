@@ -83,13 +83,13 @@ body {
 }
 
 .Navbar {
-  border-bottom: 1px #00376d solid;
+  border-bottom: 1px black solid;
   position: fixed;
   z-index: 5;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #0050a0;
+  background-color: #081226;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -111,7 +111,7 @@ body {
 
 .Navbar a:hover {
   background-color: white;
-  color: #0050a0;
+  color: #081226;
 }
 
 .Navbar #menu-icon {
@@ -254,7 +254,7 @@ body {
 
 .Footer {
   padding: 20px 0 24px;
-  background-color: #0050a0;
+  background-color: #081226;
 }
 
 .Footer > div {
@@ -326,7 +326,7 @@ p a {
 
 .page-content {
   padding: 0 0 64px;
-  color: black;
+  color: #282828;
   background-color: #f9faff;
   display: -webkit-box;
   display: -ms-flexbox;
