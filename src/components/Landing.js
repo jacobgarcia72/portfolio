@@ -14,7 +14,7 @@ export default () =>  (
 
       <div className="section">
         <img alt="Jacob Garcia" src="./assets/jacob.jpg" />
-        <p><i className="fas fa-quote-left" />&nbsp;Hey there! My name's Jacob, and I'm a fullstack developer.&nbsp;<i className="fas fa-quote-right" /></p>
+        <p><i className="fas fa-quote-left" />&nbsp;My name's Jacob, and I'm a software engineer, dedicated to DRY, scalable code.&nbsp;<i className="fas fa-quote-right" /></p>
         <Link to="about" className="btn">About</Link>
       </div>
       <div className="section">

@@ -32,7 +32,7 @@ export default () =>  (
       captions={["Build & track workout cycle, routines, reps, etc.","Record and track progress for each exercise"]}
       folder="logmyreps"
       repo="logmyreps"
-      url="https://www.logmyreps.com/"
+      url="#"
     />
     <Project
       title="Candlelit Weddings"
@@ -41,7 +41,7 @@ export default () =>  (
       captions={["Landing page with video background","Styled for desktop, tablet, and phone"]}
       folder="clw"
       repo="candlelitweddings"
-      url="https://candlelitweddings.com/"
+      url="https://jacobgarcia72.github.io/candlelitweddings/"
     />
     <Project
       title="Jacob's Game House"
